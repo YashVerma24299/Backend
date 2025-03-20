@@ -1,0 +1,30 @@
+Node.js = JavaScript Runtime Environment
+
+
+JavaScript -> run in Browser (not outside the browser)
+Node.js    -> It allows JavaScript to run outside the browser.
+
+
+Just like the browser provides an environment for running JavaScript inside it,
+Node.js provides an environment for running JavaScript outside the browser.
+
+
+Very Popular
+Based on JS
+
+
+Node.js is not language, library or framework
+Node.js is JavaScript Runtime Environment
+
+
+
+
+//Installation
+1. Open terminal and type node -v
+    If it shows a version, Node.js is already installed.
+    If not, follow Step 2.
+
+2. Download and Install Node.js
+    Go to https://nodejs.org
+    Download and install the latest stable version.
+    After installation, verify using node -v in the terminal.
