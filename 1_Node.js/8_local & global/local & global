@@ -1,0 +1,8 @@
+Globally Declare:
+    First:
+        npm init -g packagename
+    Second: (LINK THE PACKAGE)
+        npm link packagename
+
+Locally Declare:
+    npm init packagename
