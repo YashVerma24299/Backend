@@ -1,0 +1,19 @@
+REPL ->Read Evaluate Print Loop
+
+
+C:\Users\SSC\Backend>: 
+    If you type "ls", it will work because it's a terminal command.  
+    But if you first type "node" and then type "ls", it won't work because "Node.js" is based on JavaScript, and JavaScript has no concept of commands like ls, pwd, mkdir etc.  
+
+
+After typing "node" in the terminal:
+    You can execute all JavaScript commands like console.log, for loops, etc.
+    only Read,Evaluate,Print,Loop commands work.
+
+
+After typing "node" in the terminal
+    Try these commands
+        global
+        .help
+
+
