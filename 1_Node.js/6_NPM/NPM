@@ -1,0 +1,12 @@
+[Check This](https://www.npmjs.com/)
+
+Node Package Manager
+NPM is standard package manager for Node.js
+
+
+In Terminal:
+    try "npm"
+
+
+Installation
+    npm install packageName

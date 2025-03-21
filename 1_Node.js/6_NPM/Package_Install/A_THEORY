@@ -1,0 +1,36 @@
+node_modules: node_modules is a folder that stores all the installed dependencies (packages) for a project.
+How it works:
+    When you run "npm install <package>" → It downloads the package and stores it in node_modules.
+    It also installs any dependencies required by that package.
+    The node_modules folder is automatically created in the project.
+
+
+
+
+package-lock.json: It records the exact version of every installed dependency, including it's sub-dependencies and their versions.
+
+
+
+
+
+package.json: package.json is a file that contains metadata about a project and manages its dependencies.
+Purpose:
+    Defines project details (name, version, description).
+    Lists dependencies and devDependencies.
+    Helps npm manage and install packages consistently.
+Use Cases:
+    npm install → Installs dependencies listed in package.json
+
+
+If node_modules gets deleted by mistake, you can recover it using:
+Steps to Recover:
+    Open terminal in the project directory.
+    Run:
+        npm install
+    This will:
+        Read package.json and package-lock.json
+        Reinstall all listed dependencies into node_modules
+
+Why It Works:
+package.json defines the required dependencies.
+npm install downloads and restores them.
