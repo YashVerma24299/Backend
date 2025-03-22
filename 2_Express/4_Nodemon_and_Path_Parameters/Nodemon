@@ -1,0 +1,9 @@
+NODEMON:
+    It is a tool that automatically restarts your Node.js application when it detects file changes.
+
+Installation:
+    You can install Nodemon globally using npm:
+        npm install -g nodemon
+
+To run your Node.js file with Nodemon:
+    nodemon fileName
