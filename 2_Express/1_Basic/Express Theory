@@ -1,0 +1,21 @@
+FRAMEWORK: (large part)
+    A pre-written code that provide a structurefor developing s/w applications
+    Example: express
+
+LIBRARY: (small part)
+    A pre-written code that used to perform specific tasks
+    Example: axios
+
+
+
+EXPRESS:
+    Express.js flexible web framework for Node.js used to build web applications 
+USES:
+    listen to incomimg request
+    parse the request data
+        Parse means break down data into a readable format
+
+
+
+Installation is done using the:
+    npm install express
