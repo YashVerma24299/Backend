@@ -1,0 +1,17 @@
+Embedded JavaScript
+
+It is a template engine used with Node.js to generate HTML markup with JavaScript.
+It allows you to insert JavaScript code into HTML to create dynamic web pages.
+Example:
+    Instagram pages,
+        Google's page,
+        Amazon's page,
+        Mera bhi account page h,
+        All have the same structure.
+
+Use Cases:
+    Displaying data from the backend.
+    Reusing HTML components.
+
+Installation:
+    npm i ejs
