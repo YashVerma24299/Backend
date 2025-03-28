@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INSTAGRAM</title>
+    <!-- <link rel="stylesheet" href="/public/style.css">   -> NORMALLY  -->
+     
+    <link rel="stylesheet" href="/style.css">
+    <!-- app.use(express.static("public"));
+    -> This Express.js middleware serves static files (like CSS, JS, images) from the public folder, making them accessible without directly specifying the full path. 
+    -> When you use express.static("public"), files inside the public folder can be accessed directly without mentioning the complete path-->
+
+</head>
+<body>
+    <h1>Instagram</h1>
+    <h2>This belong to: @<%= data.name  %></h2>
+    <button>Follow</button>
+    <button>Message</button>
+
+    <p>Followers: <%= data.followers %> &nbsp; &nbsp; &nbsp; &nbsp; Following: <%= data.following %></p>
+    <br>
+
+    <% for(let post of data.posts) { %>
+        <img src="<%= post.image %>" alt="">
+        <p>Likes: <%= post.likes %> &nbsp; &nbsp; &nbsp; &nbsp; Comments: <%= post.comments %></p>
+    <% } %>
+</body>
+</html>
