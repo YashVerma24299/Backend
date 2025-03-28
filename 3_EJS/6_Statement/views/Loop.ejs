@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INSTAGRAM</title>
+</head>
+<body>
+    <h1>Instagram</h1>
+    <h2>This belong to: @<%= username  %></h2>
+    <button>Follow</button>
+    <button>Message</button>
+
+    <h3>Accounts that following you:</h3>
+    <ul>
+        <% for(let user of followers){ %>
+            <li><%= user %></li>
+        <% }%>
+    </ul>
+    
+</body>
+</html>
