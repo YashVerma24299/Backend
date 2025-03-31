@@ -1,0 +1,16 @@
+GET:
+    Used to retrieve data from the backend/websites/API.
+    Example: 
+        Fetching user details.
+    Problems:
+        Limited data in query string (max size limit).
+        All data is visible in the URL (less secure).
+
+POST:
+    Used to send data to the server(backend) to "create" or "update" a resource.
+    Example: 
+        Creating a new user.
+    Advantages:
+        No size limit for data.
+        Data is sent in the request body (more secure).
+ 
