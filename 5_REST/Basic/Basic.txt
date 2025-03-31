@@ -1,0 +1,32 @@
+REST:
+    Representational State Transfer
+    REST is an architectural style that defines some rules that used for designing web APIs
+
+
+RESTFUL APIs:
+    An API that follows the principles of REST is called a RESTful API.
+
+
+APIs:
+    https://stackoverflow.blog/2020/03/02/best-practices-for-rest-api-design/
+
+
+CRUD Operation:
+    GET: retrieve resources
+    POST: submit new data to the server
+    PUT: update existing data
+    PATCH: update existing data partially
+    DELETE: remove data
+
+
+CREATING RESTful APIs:
+    GET: 
+        /posts -> to get data for all posts
+    POST: 
+        /posts -> to add a new post
+    GET: 
+        /posts/:id -> to get one post
+    PATCH: 
+        /posts/:id -> to update specific post
+    DELETE: 
+        /posts/:id -> to delete specific post
