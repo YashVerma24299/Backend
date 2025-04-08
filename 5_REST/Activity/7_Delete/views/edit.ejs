@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit</title>
+</head>
+<body>
+    <h2>Edit your post</h2>
+    <p>Post id: <%= id %></p>
+    <p>Post username: <%= post.username %></p>
+    <form method="post" action="/posts/<%= post.id %>?_method=PATCH">
+        <textarea rows="10" cols="40" name="content"><%= post.content %></textarea>
+        <button>submit</button>
+    </form>
+</body>
+</html>
+
+<!-- Forms only support "GET" and "POST" requests.
+To handle "PATCH" and "DELETE" requests in Express, we use the `method-override` package.a -->
