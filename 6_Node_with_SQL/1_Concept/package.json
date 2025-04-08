@@ -1,0 +1,17 @@
+{
+  "name": "1_starting",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Yash Verma",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@faker-js/faker": "^9.6.0",
+    "express": "^4.21.2",
+    "mysql2": "^3.14.0",
+    "nodemon": "^3.1.9"
+  }
+}

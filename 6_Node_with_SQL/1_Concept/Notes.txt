@@ -1,0 +1,16 @@
+Faker Package:
+    Generate random data of user.
+
+MySQL2 Package:
+    To connect NOde with MySQL.
+
+
+For terminal access(SQL):
+    mysql -u root -p
+
+
+Database handle 4 ways:
+    Workbench
+    MySQL2 Package
+    Command Line (CLI)
+    Make sql file and write in terminal(source file_name.sql)
