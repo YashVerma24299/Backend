@@ -1,3 +1,3 @@
 -- In Terminal
-    -- source Databasess.sql (write)
+    -- source Databasesss.sql (write)
 show tables;
