@@ -20,7 +20,7 @@ let generatedata = () =>{
 
 let q= "insert into user (id, username, email, password) values ?";
 let data =[];
-for(let i=0; i<100; i++){
+for(let i=0; i<20; i++){
     data[i]=generatedata();
 }     
 
