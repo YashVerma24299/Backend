@@ -1,0 +1,16 @@
+Middleware acts as a bridge (intermediary) between an incoming request and the final response.
+
+Request ---> Middleware ---> Response
+
+Common Middleware Function:
+    method-override
+    express.static
+    express.urlencoded
+
+Middleware perform the following tasks:
+    execute any code
+    end request response cycle
+    call the next instruction function
+
+Important:
+    app.use() Express.js ka built-in method hai jo middleware ko declare karne ke liye use hota hai.
