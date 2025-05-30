@@ -28,3 +28,11 @@ Node.js is JavaScript Runtime Environment
     Go to https://nodejs.org
     Download and install the latest stable version.
     After installation, verify using node -v in the terminal.
+
+
+
+
+Symbol                                Meaning	                                             Example Path
+  .	                            Current directory	                                   ./MyFile.js → same folder
+  ..                       One level up (parent directory)	                          ../OtherFolder/MyFile.js
+No dot   	               Node will look in node_modules	                              require('express')
